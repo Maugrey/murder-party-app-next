@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
 import { useTranslation } from 'react-i18next';
 import { useGlobalStore } from '../../stores/globalStore';
@@ -31,7 +31,7 @@ export default function InterrogatePage() {
   const [clues, setClues] = useState<Clue[]>([]);
 
   const dataLoaderMode = useDataLoaderMode();
-  const cluesDataLoader = getDataLoader<Clue[]>(dataLoaderMode);
+  const cluesDataLoader = useMemo(() => getDataLoader<Clue[]>(dataLoaderMode), [dataLoaderMode]);
 
   useEffect(() => {
     if (!isGameStarted) router.push('/');
@@ -75,22 +75,19 @@ export default function InterrogatePage() {
   );
 
   useEffect(() => {
-    // Ne pas reset showClue lorsque seul cluesViewed change
-    if (selectedLocation || selectedNpc) {
-      setShowClue(false);
-      setClueText('');
-      setAlreadySeen(false);
-      if (selectedLocation && selectedNpc) {
-        // Check if all levels have been seen
-        let allSeen = true;
-        for (let lvl = 1; lvl <= maxLevel; lvl++) {
-          const key = `${selectedLocation}|${selectedNpc}|${lvl}`;
-          if (!cluesViewed[key]) allSeen = false;
-        }
-        setAlreadySeen(allSeen);
-      }
+  setShowClue(false);
+  setClueText('');
+  setAlreadySeen(false);
+  if (selectedLocation && selectedNpc) {
+    // Check if all levels have been seen
+    let allSeen = true;
+    for (let lvl = 1; lvl <= maxLevel; lvl++) {
+      const key = `${selectedLocation}|${selectedNpc}|${lvl}`;
+      if (!cluesViewed[key]) allSeen = false;
     }
-  }, [selectedLocation, selectedNpc, maxLevel, cluesViewed]);
+    setAlreadySeen(allSeen);
+  }
+}, [selectedLocation, selectedNpc, maxLevel]);
 
   // Affichage de l'indice selon le prochain niveau non vu
   const handleInterrogate = () => {

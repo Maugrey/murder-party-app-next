@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
 import { useTranslation } from 'react-i18next';
 import { useGlobalStore } from '../../stores/globalStore';
@@ -42,7 +42,7 @@ export default function SearchPage() {
   const [clues, setClues] = useState<SearchClue[]>([]);
 
   const dataLoaderMode = useDataLoaderMode();
-  const searchCluesDataLoader = getDataLoader<SearchClue[]>(dataLoaderMode);
+  const searchCluesDataLoader = useMemo(() => getDataLoader<SearchClue[]>(dataLoaderMode), [dataLoaderMode]);
 
   useEffect(() => {
     searchCluesDataLoader.load(DataResource.SEARCH).then(setClues);

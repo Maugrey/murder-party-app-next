@@ -2,7 +2,7 @@
 import { getDataLoader, DataResource } from '../../utils/dataLoader';
 import { useTranslation } from 'react-i18next';
 import { useGlobalStore } from '../../stores/globalStore';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
 import Button from '../../components/Button';
 import Toggle from '../../components/Toggle';
@@ -26,7 +26,7 @@ export default function AdminPage() {
   const isGameStarted = useGlobalStore((s) => s.isGameStarted);
   const router = useRouter();
   const dataLoaderMode = useDataLoaderMode();
-  const conditionsDataLoader = getDataLoader<ConditionDef[]>(dataLoaderMode);
+  const conditionsDataLoader = useMemo(() => getDataLoader<ConditionDef[]>(dataLoaderMode), [dataLoaderMode]);
 
   useEffect(() => {
     conditionsDataLoader.load(DataResource.CONDITIONS).then(setConditionDefs);

@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
 import { useTranslation } from 'react-i18next';
 import { useGlobalStore } from '../../stores/globalStore';
@@ -26,7 +26,7 @@ export default function PensievePage() {
   const setMemoriesShown = useGlobalStore((s) => s.setMemoriesShown);
   const router = useRouter();
   const dataLoaderMode = useDataLoaderMode();
-  const pensieveDataLoader = getDataLoader<PensieveMemory[]>(dataLoaderMode);
+  const pensieveDataLoader = useMemo(() => getDataLoader<PensieveMemory[]>(dataLoaderMode), [dataLoaderMode]);
 
   useEffect(() => {
     if (!isGameStarted) router.push('/');
