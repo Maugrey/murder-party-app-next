@@ -1,0 +1,45 @@
+{
+  "App": {
+    "home": "Home",
+    "admin": "Administration",
+    "interrogate": "Interrogate",
+    "search": "Search",
+    "shop": "Shop",
+    "pensieve": "Pensieve"
+  },
+  "Home": {
+    "title": "Murder Party",
+    "startButton": "Start Game",
+    "interrogateButton": "Interrogate",
+    "searchButton": "Search",
+    "shopButton": "Shop",
+    "pensieveButton": "Pensieve"
+  },
+  "Admin": {
+    "title": "Administration",
+    "murderPartySectionTitle": "Murder Party Admin",
+    "resetButton": "Reset",
+    "nextPhaseButton": "Next Phase",
+    "prevPhaseButton": "Previous Phase",
+    "conditionsSectionTitle": "Conditions"
+  },
+  "Pensieve": {
+    "title": "Pensieve",
+    "description": "The Pensieve allows you to access memories related to the case. Dive into the Pensieve to discover a random memory.",
+    "diveButton": "Dive into the Pensieve",
+    "noMemory": "Professor Reeves' pensieve is empty.",
+    "clueType": "Clue",
+    "falseLeadType": "False lead",
+    "uselessType": "Useless memory",
+    "location": "Location"
+  },
+  "Shop": {
+    "title": "Shop"
+  },
+  "Common": {
+    "on": "On",
+    "off": "Off",
+    "notStarted": "The game has not started.",
+    "todo": "To do"
+  }
+}

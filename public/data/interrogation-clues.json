@@ -1,0 +1,262 @@
+[
+  {
+    "id": 1,
+    "location": "Salon",
+    "npc": "Professeur Reeves",
+    "level": 1,
+    "clue": "Le professeur Reeves semblait nerveux à 21h.",
+    "start_phase": 1,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 2,
+    "location": "Salon",
+    "npc": "Professeur Reeves",
+    "level": 2,
+    "clue": "Il a vu quelqu'un passer discrètement par la porte de service.",
+    "start_phase": 2,
+    "end_phase": 4,
+    "condition": "library_opened=1"
+  },
+  {
+    "id": 3,
+    "location": "Bibliothèque",
+    "npc": "Madame Leblanc",
+    "level": 1,
+    "clue": "Madame Leblanc rangeait des livres à 21h.",
+    "start_phase": 1,
+    "end_phase": 3,
+    "condition": ""
+  },
+  {
+    "id": 4,
+    "location": "Bibliothèque",
+    "npc": "Madame Leblanc",
+    "level": 2,
+    "clue": "Elle a entendu un bruit sourd derrière l'étagère.",
+    "start_phase": 2,
+    "end_phase": 3,
+    "condition": "secret_passage_found=1"
+  },
+  {
+    "id": 5,
+    "location": "Cuisine",
+    "npc": "Monsieur Dubois",
+    "level": 1,
+    "clue": "Monsieur Dubois préparait le dessert.",
+    "start_phase": 1,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 6,
+    "location": "Cuisine",
+    "npc": "Monsieur Dubois",
+    "level": 2,
+    "clue": "Il a trouvé un objet étrange sous la table.",
+    "start_phase": 3,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 7,
+    "location": "Salon",
+    "npc": "Comtesse Bellerose",
+    "level": 1,
+    "clue": "La Comtesse discutait avec animation avec le Professeur Reeves.",
+    "start_phase": 1,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 8,
+    "location": "Salon",
+    "npc": "Comtesse Bellerose",
+    "level": 2,
+    "clue": "Elle a interrompu brusquement sa conversation quand vous êtes entré.",
+    "start_phase": 2,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 9,
+    "location": "Salon",
+    "npc": "Comtesse Bellerose",
+    "level": 3,
+    "clue": "Elle vous avoue qu'elle connaissait la victime depuis l'enfance.",
+    "start_phase": 3,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 10,
+    "location": "Jardin",
+    "npc": "Jardinier Thomas",
+    "level": 1,
+    "clue": "Le jardinier taillait les rosiers près de la fenêtre du salon.",
+    "start_phase": 1,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 11,
+    "location": "Jardin",
+    "npc": "Jardinier Thomas",
+    "level": 2,
+    "clue": "Il a remarqué que les lumières de la bibliothèque s'allumaient et s'éteignaient de façon étrange.",
+    "start_phase": 2,
+    "end_phase": 4,
+    "condition": "library_opened=1"
+  },
+  {
+    "id": 12,
+    "location": "Cave à vin",
+    "npc": "Sommelier Pierre",
+    "level": 1,
+    "clue": "Le sommelier préparait les vins pour le dîner.",
+    "start_phase": 2,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 13,
+    "location": "Cave à vin",
+    "npc": "Sommelier Pierre",
+    "level": 2,
+    "clue": "Il vous confie qu'une bouteille spéciale a été demandée par la victime.",
+    "start_phase": 3,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 14,
+    "location": "Cave à vin",
+    "npc": "Sommelier Pierre",
+    "level": 3,
+    "clue": "La bouteille a été manipulée par quelqu'un portant des gants.",
+    "start_phase": 3,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 15,
+    "location": "Bibliothèque",
+    "npc": "Professeur Webster",
+    "level": 1,
+    "clue": "Le professeur consultait des livres sur les poisons rares.",
+    "start_phase": 2,
+    "end_phase": 4,
+    "condition": "library_opened=1"
+  },
+  {
+    "id": 16,
+    "location": "Bibliothèque",
+    "npc": "Professeur Webster",
+    "level": 2,
+    "clue": "Il prétend faire des recherches académiques, mais semble nerveux.",
+    "start_phase": 2,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 17,
+    "location": "Cuisine",
+    "npc": "Chef Antoine",
+    "level": 1,
+    "clue": "Le chef préparait un menu spécial pour la victime, qui suivait un régime particulier.",
+    "start_phase": 1,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 18,
+    "location": "Cuisine",
+    "npc": "Chef Antoine",
+    "level": 2,
+    "clue": "Il mentionne qu'une personne l'a distrait pendant la préparation du plat principal.",
+    "start_phase": 2,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 19,
+    "location": "Chambre principale",
+    "npc": "Femme de chambre Émilie",
+    "level": 1,
+    "clue": "Émilie faisait le ménage dans les chambres à l'étage.",
+    "start_phase": 1,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 20,
+    "location": "Chambre principale",
+    "npc": "Femme de chambre Émilie",
+    "level": 2,
+    "clue": "Elle a trouvé une lettre déchirée dans la corbeille.",
+    "start_phase": 2,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 21,
+    "location": "Chambre principale",
+    "npc": "Femme de chambre Émilie",
+    "level": 3,
+    "clue": "La lettre contenait ce qui semblait être des menaces concernant un secret de famille.",
+    "start_phase": 3,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 22,
+    "location": "Bureau",
+    "npc": "Secrétaire Monique",
+    "level": 1,
+    "clue": "La secrétaire travaillait sur la correspondance de la victime.",
+    "start_phase": 1,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 23,
+    "location": "Bureau",
+    "npc": "Secrétaire Monique",
+    "level": 2,
+    "clue": "Elle mentionne que la victime avait reçu plusieurs appels étranges.",
+    "start_phase": 2,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 24,
+    "location": "Bureau",
+    "npc": "Secrétaire Monique",
+    "level": 3,
+    "clue": "Le dernier appel venait d'un cabinet d'avocats spécialisé en testaments.",
+    "start_phase": 3,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 25,
+    "location": "Jardin",
+    "npc": "Invité Mystérieux",
+    "level": 1,
+    "clue": "Un invité non identifié fumait dans le jardin pendant le dîner.",
+    "start_phase": 3,
+    "end_phase": 4,
+    "condition": "no_identity_reveal_before_phase_2=1"
+  },
+  {
+    "id": 26,
+    "location": "Jardin",
+    "npc": "Invité Mystérieux",
+    "level": 2,
+    "clue": "Il vous révèle être un détective privé embauché par la victime.",
+    "start_phase": 4,
+    "end_phase": 4,
+    "condition": ""
+  }
+]

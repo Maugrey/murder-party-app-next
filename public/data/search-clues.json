@@ -1,0 +1,262 @@
+[
+  {
+    "id": 1,
+    "location": "Salon",
+    "place": "Sous le canapé",
+    "clue": "Un verre brisé avec des traces de rouge à lèvres.",
+    "type": "observation",
+    "start_phase": 1,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 2,
+    "location": "Salon",
+    "place": "Dans le tiroir du bureau",
+    "clue": "Une clé ornée d'un motif de serpent.",
+    "type": "object",
+    "start_phase": 1,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 3,
+    "location": "Bibliothèque",
+    "place": "Sur l'étagère du haut",
+    "clue": "Un livre sur la toxicologie avec des pages cornées.",
+    "type": "object",
+    "start_phase": 2,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 4,
+    "location": "Bibliothèque",
+    "place": "Derrière le tableau",
+    "clue": "Un coffre-fort dissimulé avec des chiffres griffonnés à côté.",
+    "type": "observation",
+    "start_phase": 2,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 5,
+    "location": "Cuisine",
+    "place": "Dans le réfrigérateur",
+    "clue": "Une bouteille de vin à moitié vide.",
+    "type": "object",
+    "start_phase": 1,
+    "end_phase": 3,
+    "condition": ""
+  },
+  {
+    "id": 6,
+    "location": "Cuisine",
+    "place": "Sous la table",
+    "clue": "Un mouchoir taché de sang avec des initiales brodées.",
+    "type": "object",
+    "start_phase": 2,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 7,
+    "location": "Salon",
+    "place": "Derrière le rideau",
+    "clue": "Des empreintes de pas sur le tapis, comme si quelqu'un s'était caché.",
+    "type": "observation",
+    "start_phase": 1,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 8,
+    "location": "Salon",
+    "place": "Sur la table basse",
+    "clue": "Un journal intime fermé à clé.",
+    "type": "object",
+    "start_phase": 2,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 9,
+    "location": "Salon",
+    "place": "Dans la cheminée",
+    "clue": "Des fragments de papier brûlé avec des chiffres encore lisibles.",
+    "type": "observation",
+    "start_phase": 2,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 10,
+    "location": "Bibliothèque",
+    "place": "Entre deux livres",
+    "clue": "Une lettre à moitié cachée mentionnant un rendez-vous secret.",
+    "type": "object",
+    "start_phase": 2,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 11,
+    "location": "Bibliothèque",
+    "place": "Dans le tiroir du bibliothécaire",
+    "clue": "Une liste de visiteurs récents avec un nom encerclé en rouge.",
+    "type": "object",
+    "start_phase": 3,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 12,
+    "location": "Bibliothèque",
+    "place": "Sous le tapis oriental",
+    "clue": "Une trappe menant à un passage secret.",
+    "type": "observation",
+    "start_phase": 2,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 13,
+    "location": "Cuisine",
+    "place": "Dans le placard à épices",
+    "clue": "Un flacon sans étiquette contenant une poudre blanche.",
+    "type": "object",
+    "start_phase": 2,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 14,
+    "location": "Cuisine",
+    "place": "Près de l'évier",
+    "clue": "Des traces de poudre blanche et un mortier récemment utilisé.",
+    "type": "observation",
+    "start_phase": 2,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 15,
+    "location": "Cuisine",
+    "place": "Dans la poubelle",
+    "clue": "Une étiquette de flacon arrachée mentionnant un poison rare.",
+    "type": "object",
+    "start_phase": 3,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 16,
+    "location": "Chambre principale",
+    "place": "Sous l'oreiller",
+    "clue": "Un révolver chargé.",
+    "type": "object",
+    "start_phase": 2,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 17,
+    "location": "Chambre principale",
+    "place": "Dans la commode",
+    "clue": "Un testament récemment modifié.",
+    "type": "object",
+    "start_phase": 3,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 18,
+    "location": "Chambre principale",
+    "place": "Sur la coiffeuse",
+    "clue": "Une photo déchirée en deux, montrant la victime avec une personne inconnue.",
+    "type": "object",
+    "start_phase": 1,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 19,
+    "location": "Chambre principale",
+    "place": "Derrière le miroir",
+    "clue": "Une note codée avec des symboles étranges.",
+    "type": "object",
+    "start_phase": 2,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 20,
+    "location": "Bureau",
+    "place": "Dans le coffre-fort",
+    "clue": "Des documents prouvant un chantage.",
+    "type": "object",
+    "start_phase": 3,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 21,
+    "location": "Bureau",
+    "place": "Sous le buvard",
+    "clue": "L'empreinte d'une écriture pressée révélant un message menaçant.",
+    "type": "observation",
+    "start_phase": 2,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 22,
+    "location": "Bureau",
+    "place": "Dans la corbeille à papier",
+    "clue": "Une lettre froissée d'un cabinet d'avocats concernant une succession contestée.",
+    "type": "object",
+    "start_phase": 1,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 23,
+    "location": "Jardin",
+    "place": "Sous un buisson",
+    "clue": "Un gant ensanglanté à moitié enterré.",
+    "type": "object",
+    "start_phase": 2,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 24,
+    "location": "Jardin",
+    "place": "Près de la fenêtre du salon",
+    "clue": "Des empreintes de pas menant vers la maison et s'arrêtant brusquement.",
+    "type": "observation",
+    "start_phase": 1,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 25,
+    "location": "Cave à vin",
+    "place": "Derrière les tonneaux",
+    "clue": "Une fiole vide portant l'étiquette d'un poison.",
+    "type": "object",
+    "start_phase": 3,
+    "end_phase": 4,
+    "condition": ""
+  },
+  {
+    "id": 26,
+    "location": "Cave à vin",
+    "place": "Sur l'étagère à spiritueux",
+    "clue": "Une bouteille de cognac avec des résidus poudreux autour du goulot.",
+    "type": "observation",
+    "start_phase": 3,
+    "end_phase": 4,
+    "condition": ""
+  }
+]

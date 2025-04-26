@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "location": "Salon",
+    "type": "clue",
+    "phase": 1,
+    "memory": "Une femme en robe rouge qui verse discrètement une poudre dans un verre.",
+    "condition": ""
+  },
+  {
+    "id": 2,
+    "location": "Bibliothèque",
+    "type": "false-lead",
+    "phase": 1,
+    "memory": "Un homme qui consulte frénétiquement des livres sur les poisons.",
+    "condition": ""
+  },
+  {
+    "id": 3,
+    "location": "Cuisine", 
+    "type": "useless",
+    "phase": 1,
+    "memory": "Un serveur qui fait tomber un plateau de verres.",
+    "condition": ""
+  },
+  {
+    "id": 4,
+    "location": "Bibliothèque",
+    "type": "clue",
+    "phase": 2,
+    "memory": "Deux personnes qui chuchotent derrière une étagère sur un complot.",
+    "condition": ""
+  },
+  {
+    "id": 5,
+    "location": "Jardin",
+    "type": "false-lead",
+    "phase": 2,
+    "memory": "Une silhouette qui s'enfuit dans l'obscurité.",
+    "condition": ""
+  },
+  {
+    "id": 6,
+    "location": "Bureau",
+    "type": "useless",
+    "phase": 2,
+    "memory": "Un homme qui cherche ses lunettes alors qu'elles sont sur sa tête.",
+    "condition": ""
+  },
+  {
+    "id": 7,
+    "location": "Cave à vin",
+    "type": "clue",
+    "phase": 3,
+    "memory": "Une bouteille de vin spéciale, marquée d'une étiquette distinctive, manipulée avec des gants.",
+    "condition": ""
+  },
+  {
+    "id": 8,
+    "location": "Chambre principale",
+    "type": "clue",
+    "phase": 4,
+    "memory": "Une lettre de chantage glissée sous la porte, lue par la victime peu avant sa mort.",
+    "condition": ""
+  },
+  {
+    "id": 9,
+    "location": "Salon",
+    "type": "useless",
+    "phase": 1,
+    "memory": "Un invité qui renverse son verre de vin sur la robe d'une dame.",
+    "condition": ""
+  },
+  {
+    "id": 10,
+    "location": "Cuisine",
+    "type": "clue",
+    "phase": 1,
+    "memory": "Le chef qui goûte un plat et fronce les sourcils avec inquiétude.",
+    "condition": ""
+  },
+  {
+    "id": 11,
+    "location": "Jardin",
+    "type": "false-lead",
+    "phase": 1,
+    "memory": "Le jardinier qui cache précipitamment quelque chose dans sa poche en voyant quelqu'un approcher.",
+    "condition": ""
+  },
+  {
+    "id": 12,
+    "location": "Chambre principale",
+    "type": "useless",
+    "phase": 1,
+    "memory": "La femme de chambre qui change les draps du lit.",
+    "condition": ""
+  },
+  {
+    "id": 13,
+    "location": "Salon",
+    "type": "clue",
+    "phase": 2,
+    "memory": "La victime qui s'entretient secrètement avec quelqu'un derrière une porte entrouverte.",
+    "condition": ""
+  },
+  {
+    "id": 14,
+    "location": "Bureau",
+    "type": "false-lead",
+    "phase": 2,
+    "memory": "Un tiroir ouvert en hâte, des papiers éparpillés.",
+    "condition": ""
+  },
+  {
+    "id": 15,
+    "location": "Cuisine",
+    "type": "useless",
+    "phase": 2,
+    "memory": "Le sommelier qui débouche plusieurs bouteilles pour le dîner.",
+    "condition": ""
+  },
+  {
+    "id": 16,
+    "location": "Bibliothèque",
+    "type": "clue",
+    "phase": 2,
+    "memory": "Une personne qui retire un livre et révèle un passage secret derrière l'étagère.",
+    "condition": ""
+  },
+  {
+    "id": 17,
+    "location": "Jardin",
+    "type": "clue",
+    "phase": 3,
+    "memory": "Des mots échangés à voix basse près de la fontaine : 'Ce soir, ça sera fini.'",
+    "condition": ""
+  },
+  {
+    "id": 18,
+    "location": "Salon",
+    "type": "false-lead",
+    "phase": 3,
+    "memory": "La comtesse qui place discrètement un objet dans le vase sur la cheminée.",
+    "condition": ""
+  },
+  {
+    "id": 19,
+    "location": "Chambre principale",
+    "type": "useless",
+    "phase": 3,
+    "memory": "Un invité qui s'admire longuement dans le miroir, réajustant sa cravate.",
+    "condition": ""
+  },
+  {
+    "id": 20,
+    "location": "Bureau",
+    "type": "clue",
+    "phase": 3,
+    "memory": "La victime qui ouvre un coffre-fort et en sort un dossier marqué 'Confidentiel'.",
+    "condition": ""
+  },
+  {
+    "id": 21,
+    "location": "Cave à vin",
+    "type": "false-lead",
+    "phase": 3,
+    "memory": "Une personne cagoulée qui se glisse furtivement entre les tonneaux.",
+    "condition": ""
+  },
+  {
+    "id": 22,
+    "location": "Cuisine",
+    "type": "clue",
+    "phase": 4,
+    "memory": "Une main gantée qui ajoute quelque chose dans l'assiette destinée à la victime.",
+    "condition": ""
+  },
+  {
+    "id": 23,
+    "location": "Bibliothèque",
+    "type": "clue",
+    "phase": 4,
+    "memory": "Deux suspects qui scellent un pacte par une poignée de main, l'air grave.",
+    "condition": ""
+  },
+  {
+    "id": 24,
+    "location": "Bureau",
+    "type": "clue",
+    "phase": 4,
+    "memory": "La victime qui découvre un document compromettant et appelle immédiatement quelqu'un.",
+    "condition": ""
+  },
+  {
+    "id": 25,
+    "location": "Jardin",
+    "type": "clue",
+    "phase": 4,
+    "memory": "Une conversation animée qui se termine par une menace : 'Si tu parles, tu es mort.'",
+    "condition": ""
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "key": "no_identity_reveal_before_phase_2",
+    "label": "Ne pas révéler son identité avant la phase 2"
+  },
+  {
+    "id": 2,
+    "key": "library_opened",
+    "label": "La bibliothèque a été ouverte"
+  },
+  {
+    "id": 3,
+    "key": "secret_passage_found",
+    "label": "Le passage secret a été découvert"
+  },
+  {
+    "id": 4,
+    "key": "npc_confessed",
+    "label": "Un PNJ a avoué un secret"
+  },
+  {
+    "id": 5,
+    "key": "poison_found",
+    "label": "Le poison a été identifié"
+  }
+]
